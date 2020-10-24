@@ -7,8 +7,8 @@ using UnityEngine.UI;
 
 public class Verificar : MonoBehaviour
 {
-    public Image imagem;
-    
+    public Image fundo;
+
     void Start()
     {
 
@@ -19,29 +19,16 @@ public class Verificar : MonoBehaviour
 
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collision.gameObject.tag == "Frase_2")
+        if (collider.CompareTag("Frase_2"))
         {
-            imagem.color = Color.green;
+            fundo.color = Color.green;
         }
 
         else
         {
-            imagem.color = Color.red;
-        }
-    }
-
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Frase_2")
-        {
-            imagem.color = Color.blue;
-        }
-
-        else
-        {
-            imagem.color = Color.blue;
+            fundo.color = Color.red;
         }
     }
 }
