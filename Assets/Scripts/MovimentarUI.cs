@@ -2,23 +2,36 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class MovimentarUI : MonoBehaviour
+public class MovimentarUI : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
-    // Start is called before the first frame update
-    void Start()
+    private RectTransform rextTransform;
+    private CanvasGroup canvasGroup;
+
+    private void Awake()
     {
-        
+        rextTransform = GetComponent<RectTransform>();
+        canvasGroup = GetComponent<CanvasGroup>();
     }
 
-    // Update is called once per frame
-    void Update()
+
+    public void OnBeginDrag(PointerEventData eventData)
     {
-        
+        canvasGroup.alpha = .6f;
+        canvasGroup.blocksRaycasts = false;
     }
 
-    public void MoverUI()
+
+    public void OnDrag(PointerEventData eventData)
     {
-        this.transform.position = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
+        rextTransform.anchoredPosition += eventData.delta;
+    }
+
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        canvasGroup.alpha = 1f;
+        canvasGroup.blocksRaycasts = true;
     }
 }
