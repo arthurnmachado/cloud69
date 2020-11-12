@@ -8,9 +8,23 @@ public class Volume : MonoBehaviour
 
     private float AudioVolume = 1f;
 
+    private static Volume instance;
+
     void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
+
+        if (instance is null)
+        {
+            instance = this;
+            AudioSrc = GetComponent<AudioSource>();
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
+
     }
 
     void Start()
