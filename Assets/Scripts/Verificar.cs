@@ -8,6 +8,8 @@ using UnityEngine.UI;
 public class Verificar : MonoBehaviour
 {
     public Image fundo;
+    private 
+
 
     void Start()
     {

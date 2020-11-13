@@ -1,11 +1,14 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Frase3 : MonoBehaviour, IDropHandler
+public class Frase : MonoBehaviour, IDropHandler
 {
-    public Image slot;
-    public RectTransform rect;
+    private Image slot;
+    private RectTransform rect;
+    public GameObject botaoFrase;
 
     public void Start()
     {
@@ -19,14 +22,18 @@ public class Frase3 : MonoBehaviour, IDropHandler
         {
             var frase = eventData.pointerDrag.GetComponent<Button>().name;
 
-            if (frase == "Frase3")
+            if (frase == botaoFrase.name)
             {
                 eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = rect.anchoredPosition;
                 slot.color = Color.green;
+                ScoreManager.Instance.Acertou();
+                Destroy(botaoFrase.GetComponent<MovimentarUI>());
+                Destroy(gameObject.GetComponent<Frase>());
             }
             else
             {
                 slot.color = Color.red;
+                ScoreManager.Instance.Errou();
             }
         }
     }
