@@ -359,7 +359,7 @@ PrefabInstance:
     - target: {fileID: 5394330129988037582, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
       propertyPath: Fase_1
-      value: Fase2
+      value: Fase_ChapeuVerm
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 571db314a3c54f442b8c9eb0b8e2cf16, type: 3}
@@ -722,7 +722,7 @@ PrefabInstance:
     - target: {fileID: 5394330129988037582, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
       propertyPath: Fase_1
-      value: Fase 1
+      value: Fase_LeaoRato
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 571db314a3c54f442b8c9eb0b8e2cf16, type: 3}
