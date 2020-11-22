@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ProximaFase : MonoBehaviour
+public class ProximaFaseDificil : MonoBehaviour
 {
-    // Start is called before the first frame update
     public Image frase1;
     public Image frase2;
     public Image frase3;
@@ -14,14 +13,16 @@ public class ProximaFase : MonoBehaviour
     public Image frase6;
     public Image frase7;
     public Image frase8;
+    public Image frase9;
+    public Image frase10;
 
     public GameObject Proximo;
+
     void Start()
     {
         Proximo.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (frase1.color == Color.green &&
@@ -31,7 +32,9 @@ public class ProximaFase : MonoBehaviour
             frase5.color == Color.green &&
             frase6.color == Color.green &&
             frase7.color == Color.green &&
-            frase8.color == Color.green)
+            frase8.color == Color.green &&
+            frase9.color == Color.green &&
+            frase10.color == Color.green)
         {
             Proximo.SetActive(true);
         }

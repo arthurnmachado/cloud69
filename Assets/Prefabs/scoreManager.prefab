@@ -43,3 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed6f142fc3539e443b576cb6ac6d5107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreText: {fileID: 3587432528181195618, guid: 2c5dfa7c5105d7f458994eb8d1fabc3e,
+    type: 3}
+  valorAcerto: 100
+  valorErrou: -100
