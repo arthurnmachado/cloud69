@@ -130,6 +130,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1066856687}
     m_Modifications:
+    - target: {fileID: 161174779301767440, guid: e11d6ec426ea95448894eb7333100713,
+        type: 3}
+      propertyPath: m_Text
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 1792315261471554245, guid: e11d6ec426ea95448894eb7333100713,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1317,6 +1322,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1066856687}
     m_Modifications:
+    - target: {fileID: 161174779301767440, guid: e11d6ec426ea95448894eb7333100713,
+        type: 3}
+      propertyPath: m_Text
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1792315261471554245, guid: e11d6ec426ea95448894eb7333100713,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1801,7 +1811,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1066856683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0995203928b6ce940a27477eb6f27915, type: 3}
+  m_Script: {fileID: 11500000, guid: 4140727bdd504f94cba3c94ccbe3a800, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   frase1: {fileID: 240709176}
@@ -2858,6 +2868,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1066856687}
     m_Modifications:
+    - target: {fileID: 161174779301767440, guid: e11d6ec426ea95448894eb7333100713,
+        type: 3}
+      propertyPath: m_Text
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1792315261471554245, guid: e11d6ec426ea95448894eb7333100713,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3080,6 +3095,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1066856687}
     m_Modifications:
+    - target: {fileID: 161174779301767440, guid: e11d6ec426ea95448894eb7333100713,
+        type: 3}
+      propertyPath: m_Text
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1792315261471554245, guid: e11d6ec426ea95448894eb7333100713,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3222,6 +3242,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1066856687}
     m_Modifications:
+    - target: {fileID: 161174779301767440, guid: e11d6ec426ea95448894eb7333100713,
+        type: 3}
+      propertyPath: m_Text
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 1792315261471554245, guid: e11d6ec426ea95448894eb7333100713,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3892,6 +3917,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1066856687}
     m_Modifications:
+    - target: {fileID: 161174779301767440, guid: e11d6ec426ea95448894eb7333100713,
+        type: 3}
+      propertyPath: m_Text
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1792315261471554245, guid: e11d6ec426ea95448894eb7333100713,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4027,27 +4057,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 3324048393344321133}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1922278679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1922278671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0995203928b6ce940a27477eb6f27915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frase1: {fileID: 240709176}
-  frase2: {fileID: 458045167}
-  frase3: {fileID: 964140428}
-  frase4: {fileID: 1986472157}
-  frase5: {fileID: 287627502}
-  frase6: {fileID: 982269711}
-  frase7: {fileID: 1724362197}
-  frase8: {fileID: 2115545870}
-  Proximo: {fileID: 1922278671}
 --- !u!1001 &1934011063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4055,6 +4064,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1066856687}
     m_Modifications:
+    - target: {fileID: 161174779301767440, guid: e11d6ec426ea95448894eb7333100713,
+        type: 3}
+      propertyPath: m_Text
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1792315261471554245, guid: e11d6ec426ea95448894eb7333100713,
         type: 3}
       propertyPath: m_LocalPosition.x

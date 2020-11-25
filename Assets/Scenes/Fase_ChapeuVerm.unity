@@ -1400,7 +1400,7 @@ PrefabInstance:
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
       propertyPath: m_Text
-      value: ' e o lobo acordou assustado e fugiu'
+      value: ' E o lobo acordou assustado e fugiu'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 634138515327105418accc09b9cde920, type: 3}
