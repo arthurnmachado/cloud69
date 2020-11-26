@@ -27,7 +27,7 @@ public class Frase : MonoBehaviour, IDropHandler
                 eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = rect.anchoredPosition;
                 slot.color = Color.green;
                 ScoreManager.Instance.Acertou();
-                Destroy(botaoFrase.GetComponent<MovimentarUI>());
+                botaoFrase.GetComponent<MovimentarUI>().DesabilitarBotao();
                 Destroy(gameObject.GetComponent<Frase>());
             }
             else

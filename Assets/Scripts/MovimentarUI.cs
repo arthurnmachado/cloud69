@@ -34,4 +34,10 @@ public class MovimentarUI : MonoBehaviour, IBeginDragHandler, IEndDragHandler, I
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
     }
+
+    public void DesabilitarBotao()
+    {
+        canvasGroup.alpha = 1f;
+        Destroy(this);
+    }
 }

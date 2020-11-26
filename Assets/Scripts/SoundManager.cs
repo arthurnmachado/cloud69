@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class SoundManager : MonoBehaviour
     private static SoundManager soundManager;
     private bool hasBackgroundAudioSrc, hasOneShotAudioSrc;
     private AudioMixer backgroundMixer;
+    public string volumeMain;
 
     public static SoundManager instance
     {
@@ -22,7 +24,7 @@ public class SoundManager : MonoBehaviour
 
             if (!soundManager)
             {
-                soundManager = FindObjectOfType<SoundManager>() as SoundManager; 
+                soundManager = FindObjectOfType<SoundManager>() as SoundManager;
 
                 if (soundManager is null)
                 {
@@ -30,10 +32,11 @@ public class SoundManager : MonoBehaviour
                 }
                 else
                 {
+                    //DontDestroyOnLoad(soundManager);
                     soundManager.Init();
                 }
 
-                
+
             }
 
             return soundManager;
@@ -48,7 +51,7 @@ public class SoundManager : MonoBehaviour
         {
             //pass
         }
-           
+
     }
 
     private void Init()
@@ -61,9 +64,21 @@ public class SoundManager : MonoBehaviour
         if (hasBackgroundAudioSrc)
         {
             backgroundMixer = backgroundAudioSrc.outputAudioMixerGroup.audioMixer;
-            bool returnB = backgroundMixer.SetFloat("BackgroundMusicVolume" ,-80f);
+            //bool returnB = backgroundMixer.SetFloat(volumeMain, - 80f);
+            GetVolume();
         }
+
         
+    }
+
+    private void Start()
+    {
+        Slider slider = FindObjectOfType<Slider>();
+        
+        if (slider)
+        {
+            slider.value = GetVolume();
+        }
     }
 
     public void PlaySound(AudioClip sound)
@@ -82,8 +97,8 @@ public class SoundManager : MonoBehaviour
             instance.defaultShotAudioSrc.PlayDelayed(fadeTime);
 
             // Criar uma rotina para executar o fadeIn e FadeOut
-            StartCoroutine(FadeAudioMixer.StartFade(instance.backgroundMixer, "BackgroundMusicVolume", instance.fadeTime, 0f));
-            StartCoroutine(FadeAudioMixer.StartFade(instance.backgroundMixer, "BackgroundMusicVolume", instance.fadeTime, 1f, instance.fadeTime + sound.length));
+            StartCoroutine(FadeAudioMixer.StartFade(instance.backgroundMixer, volumeMain, instance.fadeTime, 0f));
+            StartCoroutine(FadeAudioMixer.StartFade(instance.backgroundMixer, volumeMain, instance.fadeTime, 1f, instance.fadeTime + sound.length));
         }
         else
         {
@@ -91,6 +106,28 @@ public class SoundManager : MonoBehaviour
             instance.defaultShotAudioSrc.PlayOneShot(sound);
         }
 
+
     }
 
+    public void SetVolume(Slider slider)
+    {
+            PlayerPrefs.SetFloat("volume", slider.value); 
+            PlayerPrefs.Save();
+        instance.backgroundAudioSrc.volume = slider.value;
+    }
+
+    private float GetVolume()
+    {
+        if (!PlayerPrefs.HasKey("volume"))
+        {
+            PlayerPrefs.SetFloat("volume", 1f);
+            PlayerPrefs.Save();
+        }
+
+        instance.backgroundAudioSrc.volume = PlayerPrefs.GetFloat("volume");
+
+        Debug.Log(PlayerPrefs.GetFloat("volume"));
+        return PlayerPrefs.GetFloat("volume");
+
+    }
 }

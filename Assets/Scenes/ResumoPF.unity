@@ -215,7 +215,7 @@ RectTransform:
   m_Children:
   - {fileID: 382101907}
   - {fileID: 308953727}
-  - {fileID: 1506817434}
+  - {fileID: 596645470}
   - {fileID: 1833040248}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -357,7 +357,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 509884750f6178e45af46bb60793ca1c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b6a0340d08a756947affcfc7123fce32, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -466,17 +466,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596645469}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1506817434}
-  m_RootOrder: 0
+  m_Father: {fileID: 194740380}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.00000031292439, y: 0.058487177}
-  m_AnchorMax: {x: 1.0000001, y: 0.70674455}
-  m_AnchoredPosition: {x: -0.00024414062, y: 58.441055}
-  m_SizeDelta: {x: 0.00018310547, y: 175.11914}
+  m_AnchorMin: {x: 0.0000035762787, y: 0.072840236}
+  m_AnchorMax: {x: 1, y: 0.64494354}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &596645471
 MonoBehaviour:
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.99020815, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -505,20 +505,19 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 15
     m_MaxSize: 60
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Chapeuzinho Vermelho\n\nEra uma vez a Chapeuzinho Vermelho, sua m\xE3e
-    numa manh\xE3 pede que ela leve uma cesta de doces a sua av\xF3. No caminho,
-    em uma floresta, ela encontra um lobo, e fala que est\xE1 indo a sua av\xF3.
-    O lobo chegou na casa da av\xF3 primeiro, entrou no quarto, ele engoliu a vov\xF3
-    e vestiu-se com suas roupas. Quando a chapeuzinho chegou, o lobo devorou a garota
-    e depois entrou em um sono profundo. Mas na janela estava observando um ca\xE7ador,
-    ele foi at\xE9 o lobo que estava dormindo, abriu sua barriga e tirou Chapeuzinho
-    e sua vov\xF3 de l\xE1. O lobo acordou assustado e fugiu."
+  m_Text: "Era uma vez uma pata que estava chocando alguns ovos\r\nTodos nasceram,
+    mas havia um pato que era diferente de todos os outros. \r\nEra gordo e muito
+    feio, a pata n\xE3o gostava dele e n\xE3o tratava ele bem. \r\nEle foi at\xE9
+    apelidado pelos irm\xE3os de \"Patinho Feio\".\r\nUm dia ele foi mandado embora
+    de casa, e come\xE7ou a viver sozinho num lago.\r\nDepois de um tempo, ele cresceu
+    e virou um lindo cisne.\r\nAt\xE9 que um dia, seus irm\xE3os encontraram-no e
+    acharam-no lindo. \r\nEle voltou para casa e sua m\xE3e e irm\xE3os pediram desculpas."
 --- !u!222 &596645472
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -702,82 +701,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &1506817433
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1506817434}
-  - component: {fileID: 1506817436}
-  - component: {fileID: 1506817435}
-  m_Layer: 5
-  m_Name: Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1506817434
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506817433}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 596645470}
-  m_Father: {fileID: 194740380}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00012207031, y: -55.9}
-  m_SizeDelta: {x: -0.00018310547, y: -242.3385}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1506817435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506817433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1506817436
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1506817433}
-  m_CullTransparentMesh: 0
 --- !u!224 &1833040248 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3324048391506011005, guid: abfca79367621cf49ab38527b86f14e3,
@@ -834,7 +757,7 @@ PrefabInstance:
     - target: {fileID: 3324048391506011005, guid: abfca79367621cf49ab38527b86f14e3,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3324048391506011005, guid: abfca79367621cf49ab38527b86f14e3,
         type: 3}
