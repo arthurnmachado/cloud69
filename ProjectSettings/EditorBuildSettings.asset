@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: a3ca159954cf2bc478ee333b4b6c807f
   - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 249faeffb466fc3498eefad2dd1688ae
+  - enabled: 1
     path: Assets/Scenes/EscolherNivel.unity
     guid: 25f16b8fb2b37c243b2fec9bc2c176fb
   - enabled: 1
@@ -38,6 +41,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ResumoCV.unity
     guid: 0bc3c417f85299d47807412e5297e62f
+  - enabled: 1
+    path: Assets/Scenes/Fase_Sapo.unity
+    guid: 85940b1a3e53a18478ab6525ed74565d
+  - enabled: 1
+    path: Assets/Scenes/ResumoSP.unity
+    guid: 97474f56cf12556409d8dfea3f0e2cd3
+  - enabled: 1
+    path: Assets/Scenes/Fase_Limao.unity
+    guid: a5469212c6ef79a43abe5ba79f807271
+  - enabled: 1
+    path: Assets/Scenes/ResumoLM.unity
+    guid: cd6cc5d569d8c2b4dbfbfd8045d267eb
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: 6e372c8beff24804db8c2b77dc6c14d6

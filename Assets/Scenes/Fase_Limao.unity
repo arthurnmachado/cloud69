@@ -719,7 +719,7 @@ PrefabInstance:
     - target: {fileID: 5394330129988037582, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
       propertyPath: Fase_1
-      value: ResumoSP
+      value: ResumoLM
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 571db314a3c54f442b8c9eb0b8e2cf16, type: 3}
@@ -974,11 +974,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 8300000, guid: 526c15d59b2024d459bdaec7794e30da, type: 3}
+      objectReference: {fileID: 8300000, guid: e06d07631de7e3845822724909a1a9f4, type: 3}
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
       propertyPath: m_Text
-      value: "Ele mora l\xE1 na lagoa"
+      value: "Meu p\xE9 de jacarand\xE1"
       objectReference: {fileID: 0}
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
@@ -1209,7 +1209,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b6a0340d08a756947affcfc7123fce32, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7de7763a475372d4da55718311d44edb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1578,11 +1578,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 8300000, guid: 9b8a6417b21f2004b96ee275a8d4174e, type: 3}
+      objectReference: {fileID: 8300000, guid: 22a9d94457c36374e862b5a46ed88d4f, type: 3}
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
       propertyPath: m_Text
-      value: "Mas que chul\xE9!"
+      value: "Outra vez esquindo l\xE1l\xE1"
       objectReference: {fileID: 0}
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
@@ -1925,11 +1925,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 8300000, guid: c9dbe2461849c0741890291171daa4f4, type: 3}
+      objectReference: {fileID: 8300000, guid: 32b3a849a2399634185ea3794662600d, type: 3}
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
       propertyPath: m_Text
-      value: "O sapo n\xE3o lava o p\xE9"
+      value: "Meu lim\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
@@ -2187,7 +2187,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 8300000, guid: f29b3a17bd01bb745853b2a104d56475, type: 3}
+      objectReference: {fileID: 8300000, guid: 7cb2df0824b82bc4282fc57fc6803383, type: 3}
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
       propertyPath: m_FontData.m_MinSize
@@ -2196,7 +2196,7 @@ PrefabInstance:
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
       propertyPath: m_Text
-      value: "N\xE3o lava porque n\xE3o quer"
+      value: Meu limoeiro
       objectReference: {fileID: 0}
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
@@ -2293,7 +2293,7 @@ PrefabInstance:
     - target: {fileID: 600384530001447824, guid: 634138515327105418accc09b9cde920,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -117
+      value: -27
       objectReference: {fileID: 0}
     - target: {fileID: 600384530001447824, guid: 634138515327105418accc09b9cde920,
         type: 3}
@@ -2359,11 +2359,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
-      objectReference: {fileID: 8300000, guid: d39f6c0339b7c2a41a57a4aba7da3e8e, type: 3}
+      objectReference: {fileID: 8300000, guid: bb4612c90a916024f81d94b0f73e2386, type: 3}
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
       propertyPath: m_Text
-      value: "N\xE3o lava o p\xE9 porque n\xE3o quer"
+      value: "Uma vez esquindo l\xEAl\xEA"
       objectReference: {fileID: 0}
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
