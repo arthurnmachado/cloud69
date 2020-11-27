@@ -10,6 +10,7 @@ public class Menu : MonoBehaviour
     public void MudarCena()
     {
         SceneManager.LoadScene(Fase_1);
+        
     }
 
     public void Sair()

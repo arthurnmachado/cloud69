@@ -23,7 +23,7 @@ public class Volume : MonoBehaviour
         else
         {
             Destroy(gameObject);
-            return; 
+            return;
         }
 
     }
@@ -40,17 +40,16 @@ public class Volume : MonoBehaviour
             slider.value = GetVolume();
         }
 
-        //Destroy(FindObjectOfType<SoundManager>().gameObject);
+        SoundManager sm = FindObjectOfType<SoundManager>();
+        if (sm)
+            Destroy(sm.gameObject);
     }
 
-    void Update()
+    static public void DestroyThisObject()
     {
-        AudioSrc.volume = AudioVolume;
-    }
-
-    public void SetVolume(float vol)
-    {
-        AudioVolume = vol;
+        if(instance)
+            Destroy(instance.gameObject);
+        instance = null;
     }
 
     public void SetVolume(Slider slider)

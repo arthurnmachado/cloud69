@@ -32,7 +32,7 @@ public class SoundManager : MonoBehaviour
                 }
                 else
                 {
-                    //DontDestroyOnLoad(soundManager);
+                    DontDestroyOnLoad(soundManager);
                     soundManager.Init();
                 }
 
@@ -68,7 +68,9 @@ public class SoundManager : MonoBehaviour
             GetVolume();
         }
 
-        
+        Volume.DestroyThisObject();
+
+
     }
 
     private void Start()
