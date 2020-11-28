@@ -264,7 +264,7 @@ PrefabInstance:
     - target: {fileID: 3315766602532100790, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -94
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3315766602532100790, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
@@ -284,7 +284,7 @@ PrefabInstance:
     - target: {fileID: 3315766602532100790, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.45341614
+      value: 0.3310203
       objectReference: {fileID: 0}
     - target: {fileID: 3315766602532100790, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
@@ -294,7 +294,7 @@ PrefabInstance:
     - target: {fileID: 3315766602532100790, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.54658383
+      value: 0.424188
       objectReference: {fileID: 0}
     - target: {fileID: 3315766602532100790, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
@@ -329,12 +329,22 @@ PrefabInstance:
     - target: {fileID: 4361667413463857849, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
       propertyPath: m_Text
-      value: Fase 2
+      value: "Os tr\xEAs porquinhos"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361667413463857849, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361667413463857849, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5394330129988037582, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
       propertyPath: Fase_1
-      value: Fase_ChapeuVerm
+      value: Fase_Porcos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 571db314a3c54f442b8c9eb0b8e2cf16, type: 3}

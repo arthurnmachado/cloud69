@@ -54,6 +54,12 @@ EditorBuildSettings:
     path: Assets/Scenes/ResumoLM.unity
     guid: cd6cc5d569d8c2b4dbfbfd8045d267eb
   - enabled: 1
+    path: Assets/Scenes/Fase_Porcos.unity
+    guid: df369c1c8b3081b41817577fc38acdb1
+  - enabled: 1
+    path: Assets/Scenes/ResumoTP.unity
+    guid: c187b8590d5027240a4135bde7f29706
+  - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: 6e372c8beff24804db8c2b77dc6c14d6
   m_configObjects: {}

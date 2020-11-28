@@ -624,7 +624,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Cr\xE9ditos:\nNadia Poliashenko\nRobert Bye\nAlmeida (Pixabay)\nPrinz
-    Peppermint (Pixabay)\nMichael Schwarzenberger\nLe\xE3ozinho Voador\nMundoDasCriancasTV\nwww.befunky.com\nwww.designevo.com\nwww.bensound.com\nwww.pixabay.com\nwww.mp3cut.net"
+    Peppermint (Pixabay)\nJuergenPM (Pixabay)\nMichael Schwarzenberger\nLe\xE3ozinho
+    Voador\nMundoDasCriancasTV\nwww.befunky.com\nwww.designevo.com\nwww.bensound.com\nwww.pixabay.com\nwww.mp3cut.net"
 --- !u!222 &1495743572
 CanvasRenderer:
   m_ObjectHideFlags: 0
