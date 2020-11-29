@@ -438,7 +438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07e8b272253519546b0f5548571e1cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fase_1: EscolherNivel
+  Fase_1: Instrucoes
 --- !u!114 &621770825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1077,7 +1077,7 @@ PrefabInstance:
     - target: {fileID: 3315766602532100790, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -331.08
+      value: -331.08002
       objectReference: {fileID: 0}
     - target: {fileID: 3315766602532100790, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
