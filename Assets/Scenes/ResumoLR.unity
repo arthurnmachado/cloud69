@@ -511,12 +511,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "O Le\xE3o e o Rato\r\n\r\nEra uma vez, um le\xE3o que estava dormindo,\r\nAt\xE9
-    que parece um rato e atormenta seu sono\r\nE o le\xE3o prende ele com suas patas,\r\nMas
-    o rato implora e convence o le\xE3o de solt\xE1-lo.\r\nUm dia, o le\xE3o \xE9
-    capturado por ca\xE7adores.\r\nO felino chora de tristeza, preso numa rede,\r\nMas
-    o rato chega e r\xF3i a rede em que foi capturado,\r\nEles fogem e viram amigos
-    para sempre!"
+  m_Text: "Era uma vez, um le\xE3o que estava dormindo,\r\nAt\xE9 que parece um rato
+    e atormenta seu sono\r\nE o le\xE3o prende ele com suas patas,\r\nMas o rato
+    implora e convence o le\xE3o de solt\xE1-lo.\r\nUm dia, o le\xE3o \xE9 capturado
+    por ca\xE7adores.\r\nO felino chora de tristeza, preso numa rede,\r\nMas o rato
+    chega e r\xF3i a rede em que foi capturado,\r\nEles fogem e viram amigos para
+    sempre!"
 --- !u!222 &596645472
 CanvasRenderer:
   m_ObjectHideFlags: 0

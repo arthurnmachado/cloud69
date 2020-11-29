@@ -475,8 +475,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: -0.00000001490122, y: 0.003093135}
   m_AnchorMax: {x: 0.99999994, y: 0.98449105}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -0.000015258789, y: -0.0000076293945}
+  m_AnchoredPosition: {x: 0, y: 4.076294}
+  m_SizeDelta: {x: 0, y: 8.152527}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &596645471
 MonoBehaviour:
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.20784315, g: 0.058823533, b: 0.019607844, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -511,14 +511,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Chapeuzinho Vermelho\n\nEra uma vez a Chapeuzinho Vermelho, sua m\xE3e
-    numa manh\xE3 pede que ela leve uma cesta de doces a sua av\xF3. No caminho,
-    em uma floresta, ela encontra um lobo, e fala que est\xE1 indo a sua av\xF3.
-    O lobo chegou na casa da av\xF3 primeiro, entrou no quarto, ele engoliu a vov\xF3
-    e vestiu-se com suas roupas. Quando a chapeuzinho chegou, o lobo devorou a garota
-    e depois entrou em um sono profundo. Mas na janela estava observando um ca\xE7ador,
-    ele foi at\xE9 o lobo que estava dormindo, abriu sua barriga e tirou Chapeuzinho
-    e sua vov\xF3 de l\xE1. O lobo acordou assustado e fugiu."
+  m_Text: "Era uma vez os tr\xEAs porquinhos\nFizeram suas casinhas\nE o lobo apareceu\nA
+    primeira casinha era de palha\nO lobo assoprou a casinha fr\xE1gil e ela caiu\nA
+    segunda era de madeira\nO lobo assoprou a segunda e derrubou\nA terceira era
+    de tijolos\nO lobo assoprou, mas n\xE3o caiu\nEle desistiu, e os porquinhos ficaram
+    a salvo"
 --- !u!222 &596645472
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -585,14 +585,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Chapeuzinho Vermelho\n\nEra uma vez a Chapeuzinho Vermelho, sua m\xE3e
-    numa manh\xE3 pede que ela leve uma cesta de doces a sua av\xF3. No caminho,
-    em uma floresta, ela encontra um lobo, e fala que est\xE1 indo a sua av\xF3.
-    O lobo chegou na casa da av\xF3 primeiro, entrou no quarto, ele engoliu a vov\xF3
-    e vestiu-se com suas roupas. Quando a chapeuzinho chegou, o lobo devorou a garota
-    e depois entrou em um sono profundo. Mas na janela estava observando um ca\xE7ador,
-    ele foi at\xE9 o lobo que estava dormindo, abriu sua barriga e tirou Chapeuzinho
-    e sua vov\xF3 de l\xE1. O lobo acordou assustado e fugiu."
+  m_Text: "Era uma vez a Chapeuzinho Vermelho, sua m\xE3e numa manh\xE3 pede que
+    ela leve uma cesta de doces a sua av\xF3. No caminho, em uma floresta, ela encontra
+    um lobo, e fala que est\xE1 indo a sua av\xF3. O lobo chegou na casa da av\xF3
+    primeiro, entrou no quarto, ele engoliu a vov\xF3 e vestiu-se com suas roupas.
+    Quando a chapeuzinho chegou, o lobo devorou a garota e depois entrou em um sono
+    profundo. Mas na janela estava observando um ca\xE7ador, ele foi at\xE9 o lobo
+    que estava dormindo, abriu sua barriga e tirou Chapeuzinho e sua vov\xF3 de l\xE1.
+    O lobo acordou assustado e fugiu."
 --- !u!222 &596645472
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -979,6 +979,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Terminar
+      objectReference: {fileID: 0}
+    - target: {fileID: 3324048391520072013, guid: abfca79367621cf49ab38527b86f14e3,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abfca79367621cf49ab38527b86f14e3, type: 3}

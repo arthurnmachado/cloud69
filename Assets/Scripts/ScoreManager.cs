@@ -44,4 +44,8 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = "Pontuação: " + score.ToString();
     }
 
+    void OnDestroy()
+    {
+        Instance = null;
+    }
 }
