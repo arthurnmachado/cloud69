@@ -504,6 +504,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4296653503562513983, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2079917289}
+    - target: {fileID: 4296653503562513983, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Menu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296653503562513983, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MudarCena
+      objectReference: {fileID: 0}
+    - target: {fileID: 4296653503562513983, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5394330129988037582, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
         type: 3}
       propertyPath: Fase_1
@@ -750,3 +770,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804141041}
   m_CullTransparentMesh: 0
+--- !u!114 &2079917289 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5394330129988037582, guid: 571db314a3c54f442b8c9eb0b8e2cf16,
+    type: 3}
+  m_PrefabInstance: {fileID: 863044194}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e8b272253519546b0f5548571e1cb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
