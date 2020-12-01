@@ -668,7 +668,7 @@ MonoBehaviour:
         m_MethodName: PlaySound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 2e6459ab68ba2574cb59bde1f58bd019,
+          m_ObjectArgument: {fileID: 8300000, guid: a9843d02aa370ab48b13e40e2cf76100,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -959,7 +959,7 @@ MonoBehaviour:
         m_MethodName: PlaySound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: f62e6be8a1c80904289339946f552f00,
+          m_ObjectArgument: {fileID: 8300000, guid: eb4f3e4681d41b440a82df4baff85a06,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -2045,7 +2045,7 @@ MonoBehaviour:
         m_MethodName: PlaySound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: 6f62c4b2ee26c0c42b1179dd418d2543,
+          m_ObjectArgument: {fileID: 8300000, guid: 767206edd709b0f4c81d4c7fa0eeec4f,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -2383,7 +2383,7 @@ MonoBehaviour:
         m_MethodName: PlaySound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: f1e7ffa4a45dad9438f28381ff1b1233,
+          m_ObjectArgument: {fileID: 8300000, guid: cebe127b953762b4b83880d8c2e3b0a8,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -2671,7 +2671,7 @@ MonoBehaviour:
         m_MethodName: PlaySound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: ca71f9e46ea66a349829ef257818b2e9,
+          m_ObjectArgument: {fileID: 8300000, guid: 3704cbf6f74b6894e9d2ab0fa3015dc9,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -3587,7 +3587,7 @@ MonoBehaviour:
         m_MethodName: PlaySound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: f9c45ad499907fd449479650e747b038,
+          m_ObjectArgument: {fileID: 8300000, guid: c2175e0c290cee94b92296a13453812a,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -3860,7 +3860,7 @@ MonoBehaviour:
         m_MethodName: PlaySound
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: c41b09c66e4384b418772b1781314e04,
+          m_ObjectArgument: {fileID: 8300000, guid: 4355f219e07dd0d45bba7b12aff3e31d,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
@@ -4532,6 +4532,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: SoundManager, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 600384530001447853, guid: 634138515327105418accc09b9cde920,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 8300000, guid: b66b308c4a06ab94fbbcca1ba1063f12, type: 3}
     - target: {fileID: 600384530072520403, guid: 634138515327105418accc09b9cde920,
         type: 3}
       propertyPath: m_Text
